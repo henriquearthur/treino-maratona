@@ -29,9 +29,6 @@ public class _1160 {
                     int anos = 0;
                     
                     while (pa <= pb) {
-                        System.out.println("pa = " + pa);
-                        System.out.println("pb = " + pb);
-                        
                         pa = (int) Math.floor(((ga / 100.0) * pa) + pa);
                         pb = (int) Math.floor(((gb / 100.0) * pb) + pb);
                         
